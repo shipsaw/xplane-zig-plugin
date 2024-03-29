@@ -1,0 +1,5 @@
+**/SDK/
+/zig-out/
+/zig-cache/
+**/zig-src/
+*~

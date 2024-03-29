@@ -1,0 +1,1 @@
+cp .\zig-out\lib\Win.dll "C:\Program Files (x86)\Steam\steamapps\common\X-Plane 12\Resources\plugins\Hello-World-SDK-3\64\win.xpl"
