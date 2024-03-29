@@ -23,7 +23,7 @@ pub fn build(b: *std.Build) void {
     for (targets) |t| {
         const xplDll = b.addSharedLibrary(.{
             .name = "Win",
-            .root_source_file = .{ .path = "src/sample-plugin.zig" },
+            .root_source_file = .{ .path = "src/sim-data.zig" },
             .target = b.resolveTargetQuery(t),
             .optimize = optimize,
         });
